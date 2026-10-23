@@ -1,0 +1,7 @@
+.env
+venv/
+.venv/
+*.csv
+data/
+hourly_store.json
+__pycache__/
