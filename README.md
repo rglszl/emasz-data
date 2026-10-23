@@ -16,6 +16,16 @@ A script két adatsort hoz létre (kWh):
 | `energia:halozati_vetel` | Hálózatból vételezett |
 | `energia:halozatba_betaplalt` | Hálózatba betáplált |
 
+## A CSV formátuma
+
+A CSV ilyen formában érkezik a szolgáltatótól, negyedórás felbontásban:
+
+```csv
+Gyáriszám;Azonosító;Dátum;Idő;Hálózatból vételezett;Mértékegység;Státusz;Státusz megnevezés;Hálózatba betáplált;Mértékegység;Státusz;Státusz megnevezés;Szaldó;Mértékegység;Státusz;Státusz megnevezés
+1234;1234-1234;2026.10.22;0:00:00;5,200,000,000,000;kWh;IU012;Érték érvényes;0;kWh;;;0;kWh;;
+1234;1234-1234;2026.10.22;0:15:00;4,800,000,000,000;kWh;IU012;Érték érvényes;0;kWh;;;0;kWh;;
+```
+
 ## Előkészületek
 
 ### 1. Külön Gmail cím létrehozása
